@@ -1,0 +1,403 @@
+header {
+	height: 100px;
+	background-color: #008daa;
+}
+
+.linkSite {
+	font-family: Roboto;
+	font-size: 24px;
+	color: #d4d0c8;
+	text-decoration: underline;
+	margin-top: 35px;
+}
+
+.linkSite:hover {
+	color: #eeeeed;
+}
+
+.imagesSocialMedia {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: space-between;
+	align-content: flex-end;
+	margin-top: 35px;
+}
+
+.imagesSocialMedia li .hover1 {
+	display: none;
+}
+
+.imagesSocialMedia li:hover img {
+	display: none;
+}
+
+.imagesSocialMedia li:hover .hover1 {
+	display: block;
+}
+
+.imagesSocialMedia li img {
+	width: 40px;
+	height: 40px;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	color: #06bac5;
+	padding-top: 20px;
+	font-family: Roboto;
+	font-size: 18px;
+	padding-bottom: 130px;
+}
+
+.menuElements:hover {
+	color: #eb477b;
+}
+
+.main_menu {
+	background-color: #eeeeed;
+}
+
+.banner {
+	background-image: url(img/design-2461957_1920.png);
+	background-repeat: no-repeat;
+	background-position: 25% 50%;
+    background-size: contain;
+	padding-bottom: 400px;
+	background-color: #eeeeed;
+}
+
+.bannerText {
+	color: #005c7d;
+	text-align: center;
+	font-family: Philosopher;
+	font-size: 52px;
+	padding-bottom: 30px;
+}
+
+.adobe {
+	color: #005c7d;
+	text-align: right;
+	font-family: Philosopher;
+	font-size: 52px;
+	padding-bottom: 40px;
+}
+
+.bannerText2 {
+	color: #005c7d;
+	font-weight: bold;
+	font-family: Roboto;
+	font-size: 21px;
+	padding-bottom: 30px;
+}
+
+.infoBanner {
+	text-align: right;
+}
+
+.button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 50px;
+	background-color: #005c7b;
+	color: #eeeeed;
+	border-color: #005c7b;
+	font-family: Roboto;
+	font-size: 26px;
+}
+
+.button:hover {
+	background-color: #eb477b;
+}
+
+.aboutCourse {
+	padding-top: 130px;
+	padding-bottom: 110px;
+	color: #005c7d;
+	text-align: center;
+	font-family: Philosopher;
+	font-size: 60px;
+}
+
+.textAboutCourse {
+	color: #005c7d;
+	text-align: center;
+	padding-bottom: 120px;
+	font-family: Roboto;
+	font-size: 24px;
+}
+
+.aboutCourseElements {
+	font-weight: bold;
+	color: #005c7d;
+	font-family: Philosopher;
+	font-size: 30px;
+}
+
+.infoAboutCourse {
+	color: #06bac5;
+	font-family: Roboto;
+	font-size: 18px;
+}
+
+.imagesAboutCourse {
+	width: 100px;
+	height: 100px;
+}
+
+.iconsAboutCourse {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding-bottom: 210px;
+
+}
+
+.advantagesPart {
+	background-color: #eeeeed;
+	padding-top: 135px;
+}
+
+.advantages {
+	color: #005c7d;
+	text-align: center;
+	font-family: Philosopher;
+	font-size: 60px;
+}
+
+.listOfAdvantages {
+	color: #005c7d;
+	list-style-type: none;
+	padding-top: 40px;
+	text-align: left;
+	padding-left: 270px;
+	font-family: Roboto;
+	font-size: 24px;
+	padding-bottom: 290px;
+}
+
+.adv {
+	padding: 23px;
+}
+
+.questions {
+	padding-top: 135px;
+	padding-bottom: 80px;
+	color: #005c7d;
+	text-align: center;
+	font-family: Philosopher;
+	font-size: 60px;
+}
+
+.questionsPart .card .card-header .btn {
+	font-family: Philosopher;
+	font-weight: bold;
+	color: #06bac5;
+	font-size: 22px;
+	background-color: white;
+	text-align: left;
+}
+
+.card-header {
+	background-color: white;
+	border: none;
+	border-top: none;
+}
+
+.card {
+	border: none;
+}
+
+.card-body {
+	font-family: Roboto;
+	font-style: italic;
+	font-size: 16px;
+	color: #005c7d;
+	padding-left: 33px;
+}
+
+.dontFind {
+	padding-top: 65px;
+	padding-bottom: 55px;
+	color: #06bac5;
+	text-align: center;
+	font-family: Philosopher;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.askHere {
+	padding-bottom: 370px;
+	color: #005c7d;
+	text-align: center;
+	text-decoration: underline;
+	font-family: Philosopher;
+	font-size: 36px;
+}
+
+.askHere:hover {
+	color: #eb477b;
+}
+
+.Reviews {
+	padding-bottom: 115px;
+	color: #005c7d;
+	text-align: center;
+	font-family: Philosopher;
+	font-size: 60px;
+}
+
+.ReviewsPart {
+	background-color: #eeeeed;
+	padding-top: 135px;
+}
+
+.carousel-item {
+	padding-left: 180px;
+	padding-right: 180px;
+}
+
+.bi-chevron-left {
+	border: solid 4px #d4d0c8;
+	border-radius: 50%;
+}
+
+.bi-chevron-right {
+	border: solid 4px #d4d0c8;
+	border-radius: 50%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	bottom: 350px;
+}
+
+.FirstReview {
+	color: #005c7d;
+	font-style: italic;
+	font-family: Roboto;
+	font-size: 18px;
+	padding-bottom: 14px;
+}
+
+.fotoWoman {
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	height: 100px;
+	width: 100px;
+}
+
+.OlgaVoroncova {
+	text-align: center;
+	color: #06bac5;
+	padding-top: 30px;
+	padding-bottom: 430px;
+	font-family: Philosopher;
+	font-size: 30px;
+}
+
+.connectWithUsPart {
+	padding-top: 140px;
+}
+
+.connectWithUs {
+	padding-bottom: 155px;
+	color: #005c7d;
+	text-align: center;
+	font-family: Philosopher;
+	font-size: 60px;
+}
+
+.itemsConnect {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 140px;
+}
+
+.arrow {
+	width: 180px;
+	height: 100px;
+}
+
+.educationCenter {
+	color: #005c7d;
+	padding-top: 35px;
+	font-family: Roboto;
+	font-size: 30px;
+}
+
+.mainSite {
+	color: #06bac5;
+	text-decoration: underline;
+	padding-top: 35px;
+	font-family: Roboto;
+	font-size: 25px;
+}
+
+.mainSite:hover {
+	color: #eb477b;
+}
+
+.socialMedia {
+	padding-bottom: 65px;
+	color: #005c7d;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 30px;
+}
+
+.iconsSocialMedia {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style-type: none;
+	margin-bottom: 210px;
+}
+
+.iconsSocialMedia li img {
+	height: 70px;
+	width: 70px;
+}
+
+.iconsSocialMedia li {
+	margin: 0 90px;
+}
+
+.iconsSocialMedia li .hover {
+	display: none;
+}
+
+.iconsSocialMedia li:hover img {
+	display: none;
+}
+
+.iconsSocialMedia li:hover .hover {
+	display: block;
+}
+
+.footer {
+	background-color: #005c7d;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+.footerText {
+	color: #eeeeed;
+	font-family: Roboto;
+	font-size: 18px;
+}
+
+.politics {
+	color: #eeeeed;
+	text-decoration: underline;
+}
+
+.politics:hover {
+	color: #eeeeed;
+}
+
+html {
+	height: 100%;
+}
